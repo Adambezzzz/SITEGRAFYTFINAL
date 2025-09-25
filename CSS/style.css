@@ -1,0 +1,726 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     /* GOOGLE  FONTS */
+    font-family: 'poppins',sans-serif;
+    /* font-weight: bold; */
+    /* FIM GOOGLE FONTS */
+}
+
+
+
+body{
+    background-color: #fff;
+    height: 100vh;
+ 
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #aa0000;
+    color: #fff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transform: .2s;
+}
+
+#btn-contato1 button, #btn-contato2 button, #btn-contato3 button{
+     padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #aa0000;
+    color: #fff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transform: .2s;
+}
+
+#btn-contato1 button{
+    margin-top: 75px;
+}
+
+#btn-contato2 button{
+    margin-top: 55px;
+}
+
+#btn-contato3 button{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+button:hover{
+    box-shadow: 0px 0px 8px #333333a7;
+    transform: scale(1.05);
+}
+
+h2.titulo{
+    color: #333333;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #aa0000;
+}
+
+button:hover, form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px #333333a7;
+    transform: scale(1.05);
+}
+
+
+
+
+
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 40px 4%;
+    box-shadow: 0 0 8px #636363;
+     
+}
+
+header >.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #636363;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    transform: scale(1.05);
+    color: #333333;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;     
+    padding: 0 40px;
+}
+
+
+
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #333333;
+    font-size: 48px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: #aa0000;
+}
+
+.topo-do-site .txt-topo-site p{
+
+    color: #333333;
+    margin: 40px 0;
+    font-size: 18px;
+}
+
+.topo-do-site .img-topo-site img:hover{
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.img-topo-site img{
+    transition: 2s;
+}
+
+
+
+
+/* ESTILO DAS ESPECIALIDADES */
+
+
+section.especilidades{
+    padding: 40px 4%;
+}
+
+section.especilidades .flex{
+    gap: 50px;
+}
+
+.especilidades .especialidades-box{
+    color: #333333;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: #fcfcfc;
+    transition: .2s;
+    width: 33.33%;
+}
+
+.especilidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #333333a7;
+}
+
+.especilidades .especialidades-box i{
+    font-size: 68px;
+    color: #aa0000;
+}
+
+.especilidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+p.frase-espec{
+        text-align: center;
+        padding: 10px;
+        font-size: 17px;
+color: #292828;
+}
+
+
+
+
+/* ESTILO DO SOBRE */
+
+
+
+section.sobre{
+    padding: 80px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+section.sobre .img-sobre img{
+    border-radius: 30px;
+}
+
+.sobre .txt-sobre{
+    color: #aa0000;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    color: #333333;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #aa0000;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+    color: #333333;
+}
+
+.btn-social button{
+width: 60px;
+height: 60px;
+border-radius: 50%;
+border: none;
+background-color: #aa0000;
+color: #fff;
+font-size: 20px;
+cursor: pointer;
+margin: 0 5px;
+transition: .2s;
+}
+
+.btn-entre-em-contato:hover{
+    transition: .2s;
+}
+
+.btn-entre-em-contato{
+    transition: .3s;
+}
+
+
+
+
+
+
+/* ESTILO DO PORTFÓLIO */
+section.portfolio{
+    padding: 80px 4%;
+    box-shadow: 40px 10px 40px 10px #bababa;
+}
+
+section.portfolio .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-color: #aa0000;
+    background-size: cover;
+    background-position: 100% 0%;
+    border-radius: 15px;
+    position: relative;
+}
+
+.img-port:hover{
+    background-position: 100% 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight:600;
+    background-color: #000000b5;
+    color: white;
+    opacity: 0;
+    transition: .5s;
+    
+}
+
+
+.curta{
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+/* ESTILO FORMULÁRIO DE CONTATO */
+/* section #formulario{
+    padding: 80px 4%;
+    background-image: url(../images/Padrão-3.png);
+    background-size: cover;
+    background-color: #e6e5e5;
+    box-shadow: 0 0 40px 10px #333333a4;
+} */
+.formulario{
+    padding: 80px 4%;
+    background-image: url(../images/Padrão-3.png);
+    background-color: #e6e5e5;
+    box-shadow: 0 0 20px 10px #333333a4;
+}
+
+#formulario{
+    padding: 80px 4%;
+    background-image: url(../images/Padrão-3.png);
+    background-color: #e6e5e5;
+    box-shadow: 0 0 20px 10px #333333a4;
+    height: 700px;
+}
+
+
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #00000009;
+    border: 0;
+    outline: 0;   
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #333333;
+    font-size: 18px;
+}
+
+form textarea:hover{
+    transform: scale(1.06);
+    transition: .2s;
+}
+
+form .btn-enviar:hover{
+    transform: scale(1.06);
+    transition: .2s;
+}
+
+form .btn-enviar input:hover{
+    box-shadow: 0 0 8px;
+    transform: scale(1.06);
+    transition: .2s;
+}
+
+form input:hover{
+    transform: scale(1.06);
+    transition: .2s;
+}
+
+form input{
+    transition: .3s;
+}
+
+
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+    transition: .3s;
+}
+
+form .btn-enviar{
+    margin-top: 30px;
+    text-align: center;
+    transition: .3s;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: #aa0000;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+
+
+/* ESTILO DO RODAPÉ */
+
+footer{
+    padding: 40px 4%;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid #aa0000;
+}
+
+footer .line-footer p i{
+    color: #aa0000;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: #333333;
+    text-decoration: none;
+    text-align: center;
+}
+
+i.bi-envelope-fill{
+    color: #aa0000;
+    justify-content: start
+}
+
+
+
+
+
+
+
+/* SECTION DO GOOGLEMAPS */
+.google-maps-sec{
+    background-color: #aa0000;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    text-align: center;
+    box-shadow:0 0 40px 10px #444444;
+    
+}
+
+aside.localtext{
+    color: #fff;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* STYLE PROJETOS */
+.cards{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.maincards{
+    padding: 80px 4%;
+    background-color: #aa0000;
+    box-shadow: 0 0 10px 5px #333333a4;
+
+}
+
+
+.card{
+    transition: .2s;
+    border: none;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+ .btn{
+    background-color: #aa0000;
+    color: #fff;
+    transition: .2s;
+    
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #333333a7;
+    background-color: #aa0000;
+    color: #fff;
+
+}
+
+
+/* STYLE VEJA MAIS DE PROJETOS */
+main#d-flex{
+    display: flex;
+    padding: 40px 4%;
+    background-color: rgba(137, 140, 156, 0.463);
+    box-shadow: 0 0 10px 5px #444444;
+    
+}
+
+section#texto{
+    width: 40%;
+    text-align: start;
+}
+
+section#images{
+    width: 60%;
+    text-align: center;
+}
+
+section#texto h3{
+    text-align: center;
+    color: #aa0000;
+    padding: 4px;
+}
+
+section#texto li#li{
+    padding: 4px;
+    color: rgb(137, 140, 156);
+}
+
+section#texto .btn-social{
+    text-align: center;
+}
+
+section#texto p{
+    text-align: center;
+    color: #aa0000;
+    font-weight: 500;
+}
+
+section#texto p#texto{
+   color: rgb(137, 140, 156);
+   font-weight: 400;
+
+}
+
+
+/* clientes.html */
+
+.img-cliente {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: -40px;
+    
+}
+    
+
+
+
+
+
+
+/* sobre.html */
+
+.pessoal-main{
+    box-shadow: 0 0 10px 5px #333333a4;
+
+}
+
+.info-pessoal{
+    color: #fff;
+    background-color: #aa0000;
+    padding: 40px;
+    height: 300px;
+    display: flex;
+}
+
+.info-pessoal-inverso{
+    background-color: rgba(137, 140, 156, 0.463);
+    padding: 40px;
+    height: 300px;
+    display: flex;
+}
+
+.info-txt{
+    width: 70%;
+}
+
+.info-img{
+    width: 30%;
+    text-align: center;
+}
+
+.info-img img{
+    border-radius: 100px;
+    transition: .5s;
+}
+
+.info-img img:hover{
+    transform: scale(1.07);
+}
+
+.h4-pessoal{
+    font-size: 28px;
+    color: rgb(137, 140, 156);
+}
+
+.h4-pessoal-inverso{
+    font-size: 28px;
+    color: #aa0000;
+}
+
+.p-pessoal{
+    color: #fff;
+}
+
+.p-pessoal, .p-pessoal-inverso{
+    padding: 10px;
+}
+
+.p-pessoal-inverso{
+    color: #111111;
+}
+
+.h5-pessoal{
+    color: rgb(137, 140, 156);
+}
+
+.h5-pessoal, .h5-pessoal-inverso{
+    font-size: 18px;
+}
+
+.h5-pessoal-inverso{
+    color: #aa0000;
+}
+
+.btn-pessoal a{
+    text-decoration: none;
+    color: #fff;
+    border: none;
+}
+
+.btn-pessoal{
+    background-color: #aa0000;
+    border: none ;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 650px;
+    transition: 0.5s;
+
+}
+
+
+
+
+/* style sede.html */
+.sede-main{
+    padding: 40px;
+    background-color: rgba(137, 140, 156, 0.463);
+}
+
+.txt-sede{
+    text-align: center;
+    padding: 20px;
+
+}
+
+.txt-sede h4{
+    font-size: 28px;
+    color: #aa0000;
+}
+
+.txt-sede p{
+    font-size: 16px;
+}
+
+
+
