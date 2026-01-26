@@ -33,7 +33,6 @@ body{
     background-color: #aa0000;
     color: #fff;
     border: 0;
-    border-radius: 30px;
     cursor: pointer;
     transform: .2s;
 }
@@ -45,7 +44,6 @@ body{
     background-color: #aa0000;
     color: #fff;
     border: 0;
-    border-radius: 30px;
     cursor: pointer;
     transform: .2s;
 }
@@ -183,7 +181,6 @@ section.especilidades .flex{
 .especilidades .especialidades-box{
     color: #333333;
     padding: 40px;
-    border-radius: 20px;
     margin-top: 50px;
     background-color: #fcfcfc;
     transition: .2s;
@@ -228,9 +225,6 @@ section.sobre .flex{
     gap: 60px;
 }
 
-section.sobre .img-sobre img{
-    border-radius: 30px;
-}
 
 .sobre .txt-sobre{
     color: #aa0000;
@@ -297,7 +291,6 @@ section.portfolio .flex{
     background-color: #aa0000;
     background-size: cover;
     background-position: 100% 0%;
-    border-radius: 15px;
     position: relative;
 }
 
@@ -311,7 +304,6 @@ section.portfolio .flex{
     left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -379,7 +371,6 @@ form input, form textarea{
     border: 0;
     outline: 0;   
     padding: 20px 15px;
-    border-radius: 15px;
     color: #333333;
     font-size: 18px;
 }
@@ -640,7 +631,6 @@ section#texto p#texto{
 }
 
 .info-img img{
-    border-radius: 100px;
     transition: .5s;
 }
 
@@ -691,7 +681,6 @@ section#texto p#texto{
 .btn-pessoal{
     background-color: #aa0000;
     border: none ;
-    border-radius: 10px;
     padding: 10px;
     margin-left: 650px;
     transition: 0.5s;
