@@ -549,7 +549,7 @@ section#texto .btn-social {
 }
 
 .info-pessoal-inverso {
-    background-color: rgba(137, 140, 156, 0.463);
+    background-color: rgb(194, 194, 196);
     color: #333333;
 }
 
@@ -567,6 +567,7 @@ section#texto .btn-social {
 .info-img img {
     border-radius: 8px; /* Opcional: estética */
     transition: .5s;
+    height: 15rem;
 }
 
 .h4-pessoal, .h4-pessoal-inverso {
@@ -574,7 +575,11 @@ section#texto .btn-social {
     margin-bottom: 10px;
 }
 
-.h4-pessoal { color: rgb(200, 202, 215); }
+.h5-pessoal{
+    color: rgb(200, 202, 215);
+}
+
+.h4-pessoal { color: #f0f0f0; }
 .h4-pessoal-inverso { color: #aa0000; }
 
 .p-pessoal, .p-pessoal-inverso {
