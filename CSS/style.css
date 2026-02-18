@@ -33,6 +33,7 @@ img {
 .flex {
     display: flex;
     flex-wrap: wrap; /* Essencial para responsividade */
+    
 }
 
 /* ========================================
@@ -634,6 +635,37 @@ section#texto .btn-social {
     color: #aa0000;
     margin-bottom: 15px;
 }
+
+.images {
+    .global {
+        width: 60%;
+        margin: auto;
+        background-color: #f0f0f0;
+        padding: 1rem;
+        
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background-color: #f0f0f0;
+
+
+            img{
+                transition: 1s; 
+                width: 100%;
+            }
+
+            img:hover{
+                transform: scale(1.05);
+            }
+
+        }
+
+    }
+}
+
 
 /* ========================================
    CABEÇALHO - HEADER (Atualizado)
