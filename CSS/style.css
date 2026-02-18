@@ -284,9 +284,7 @@ section.portfolio .flex {
     cursor: pointer;
 }
 
-.img-port:hover {
-    background-position: 100% 100%;
-}
+
 
 .overlay {
     position: absolute;
@@ -831,7 +829,7 @@ header nav ul li {
 
     #btn-contato1 button { margin-top: 30px; }
 
-    .img-port { height: 300px; }
+    .img-port { height: 400px; }
 
     form input, form textarea { font-size: 16px; }
 
