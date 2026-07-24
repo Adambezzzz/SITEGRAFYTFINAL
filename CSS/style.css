@@ -668,6 +668,16 @@ section#texto .btn-social {
 /* ========================================
    CABEÇALHO - HEADER (Atualizado)
    ======================================== */
+.politica{
+    width: 100%;
+}
+
+
+
+
+/* ========================================
+   CABEÇALHO - HEADER (Atualizado)
+   ======================================== */
 header {
     padding: 20px 0;
     box-shadow: 0 0 8px #636363;
@@ -711,6 +721,61 @@ header nav ul li {
 
 /* ... (Mantenha o resto do CSS até chegar nas Media Queries) ... */
 
+
+
+/* QUALIDADES.HTML ESTILIZACXAO BREVE */
+
+#qualidade-h4 {
+    font-size: 38px;
+}
+
+#qualidade-p {
+    font-size: 16px;
+    padding: 5px;
+}
+
+#qualidade-ph{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+#qualidade-ul {
+    padding: 10px;
+
+    li{
+        font-size: 16px;
+        list-style: inside;
+    }
+
+}
+
+#qualidade-h5 {
+    font-size: 32px;
+    color: #f0f0f0;
+}
+
+.missao, .visao ,.valores{
+    background-color: #f0f0f0;
+    margin: 1rem;
+    width: 30%; 
+    text-align: center;
+}
+
+.qualidade {
+    background-color: #f0f0f0;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+
+.heading {
+    background-color: #aa0000;
+    color: #f0f0f0;
+    width: 100%;
+}
+section.flex {
+    padding: 1rem;
+}
 
 /* ==========================================================================
    MEDIA QUERIES (RESPONSIVIDADE AJUSTADA)
